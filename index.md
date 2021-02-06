@@ -12,4 +12,4 @@ The goal of this project will firstly be to determine the ability of a NN to dif
 
 1. Develop a NN that classifies tweets as Russian propaganda or U.S. using the FastAI library
 2. Explore new methods for building NNs that do the above task and compare performance between NNs
-3. (Potentially) Build a dataset of QAnon tweets for training a NN in classification of tweets of QAnon followers, Russian propagandists, and U.S. politicians
+3. Build a dataset of QAnon tweets for training a NN in classification of tweets of QAnon followers, Russian propagandists, and U.S. politicians (potentially)
