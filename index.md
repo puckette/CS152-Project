@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Russian Propagandists and U.S. Politicians: Tweet Classification and Comparison
 
-You can use the [editor on GitHub](https://github.com/puckette/CS152-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I will focus on training neural networks for the task of classifying tweets as having been written by Russian propagandists or U.S politicians in the years around the 2016 presidential election. These tweets will come from the time period of 2015-2017, and the Russian tweets will specifically come from propagandists at the Internet Research Agency, the Russian “online influence” institution financed by a close ally of Putin’s and indicted by the Department of Justice in 2018. The original neural network will be developed using the FastAI library, but subsequent networks will be developed using new tools to compare classification performance between NNs.
 
-### Markdown
+If this initial proves relatively simple, my next step will be to create a dataset of QAnon tweets and use it to train a NN that can differentiate between the existing tweets as well as the QAnon tweets, as it is a more recent conspiracy theory that has taken a lesson in disinformation from Russian propagandists. The trained neural networks will be deployed as an application, hopefully a fully developed publicly-available application.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The goal of this project will firstly be to determine the ability of a NN to differentiate between foreign propaganda for the purpose of election manipulation and speech by U.S politicians for their own political gain in order to advance the use of NNs in the detection of political disinformation. Secondly, it will be to raise questions about what constitutes disinformation, especially when it comes from the mouth of politicians as well as questions about what the role of NNs and other forms of AI should be in combatting disinformation.
 
-```markdown
-Syntax highlighted code block
+## Project Goals
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/puckette/CS152-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Develop a NN that classifies tweets as Russian propaganda or U.S. using the FastAI library
+2. Explore new methods for building NNs that do the above task and compare performance between NNs
+3. (Potentially) Build a dataset of QAnon tweets for training a NN in classification of tweets of QAnon followers, Russian propagandists, and U.S. politicians
