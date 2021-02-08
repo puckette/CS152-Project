@@ -2,7 +2,7 @@
 
 ## Project Description
 
-I will focus on training neural networks for the task of classifying tweets as having been written by Russian propagandists or U.S politicians in the years around the 2016 presidential election. The Russian tweets will specifically come from propagandists at the Internet Research Agency, the Russian “online influence” institution financed by a close ally of Putin’s and indicted by the Department of Justice in 2018. The first neural network will be developed using the FastAI library, but subsequent networks will be developed using new tools to compare classification performance between NNs.
+I will focus on training neural networks for the task of classifying tweets as having been written by Russian propagandists or U.S politicians in the years around the 2016 presidential election. The Russian tweets will specifically come from propagandists at the Internet Research Agency, the Russian “online influence” institution financed by a close ally of Putin’s and indicted by the Department of Justice in 2018. The first neural network will be developed using the fastai library, but subsequent networks will be developed using new tools to compare classification performance between NNs.
 
 If this initial stage proves relatively simple, my next step will be to create a dataset of QAnon tweets and use it to train a NN that can differentiate between the existing U.S. politician and Russian propagandist tweets as well as the QAnon tweets, as it is a more recent conspiracy theory that has taken a lesson in disinformation from Russian trolls, and one that some elected U.S. politician have begun openly supporting. The trained neural networks will be deployed as an application, hopefully a fully developed publicly-available application.
 
@@ -10,6 +10,6 @@ The goal of this project will firstly be to determine the ability of a NN to dif
 
 ## Project Goals
 
-1. Develop a NN that classifies tweets as Russian propaganda or from U.S. politicians using the FastAI library 
+1. Develop a NN that classifies tweets as Russian propaganda or from U.S. politicians using the fastai library 
 2. Explore new methods for building NNs that do the above task and compare performance between NNs
 3. Build a dataset of QAnon tweets for training a NN in the classification of tweets of QAnon followers, Russian propagandists, and U.S. politicians (potentially)
