@@ -1,5 +1,7 @@
 # Russian Propagandists and U.S. Politicians: Tweet Classification and Comparison
 
+![Alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fthumbnails.texastribune.org%2F3j1zhgGhDJ9Ny4OqOa9gwOQYjL4%3D%2F1200x804%2Fsmart%2Ffilters%3Aquality(95)%2Fstatic.texastribune.org%2Fmedia%2Ffiles%2F53ef5cdd23d3909a47f7049974b15447%2FFB-Russia-Texas-001.png&imgrefurl=https%3A%2F%2Fwww.texastribune.org%2F2018%2F12%2F17%2Ftexas-secession-russia-disinformation-2016-social-media-new-knowledge%2F&tbnid=qJXnq9geqIo-qM&vet=12ahUKEwiHxqHyudvuAhVVmp4KHdruDhoQMygAegQIARAZ..i&docid=jeZSG3IRzdxhMM&w=1200&h=804&q=russian%20disinformation%20texas%20tribune&ved=2ahUKEwiHxqHyudvuAhVVmp4KHdruDhoQMygAegQIARAZ)
+
 ## Project Description
 
 I will focus on training neural networks for the task of classifying tweets as having been written by Russian propagandists or U.S politicians in the years around the 2016 presidential election. The Russian tweets will specifically come from propagandists at the Internet Research Agency, the Russian “online influence” institution financed by a close ally of Putin’s and indicted by the Department of Justice in 2018. The first neural network will be developed using the fastai library, but subsequent networks will be developed using new tools to compare classification performance between NNs.
